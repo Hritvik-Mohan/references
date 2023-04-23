@@ -1,0 +1,11 @@
+.quote {
+    display: grid;
+    justify-content: center;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.quote-gen-container {
+    display: flex;
+    justify-content: center;
+}
