@@ -1,0 +1,19 @@
+.image-like-button {
+    border-radius: 4px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
