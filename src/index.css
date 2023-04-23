@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -12,7 +18,7 @@
 
 .container {
   /* display: flex; */
-  max-width: 1000px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 .5rem;
   width: 100%;
