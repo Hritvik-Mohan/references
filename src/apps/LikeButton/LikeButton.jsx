@@ -8,7 +8,7 @@ export default function LikeButton() {
         setLike(like + 1)
     }
 
-    const handleRefresh = () => {
+    const handleReset = () => {
         setLike(0)
     }
 
@@ -21,7 +21,7 @@ export default function LikeButton() {
                     <h3>{like}</h3>
                 </div>
             </div>
-            <button className='like-button-refresh' onClick={handleRefresh}>Refresh</button>
+            <button className='like-button-refresh counter-button' onClick={handleReset}>Reset</button>
         </div>
     )
 }
