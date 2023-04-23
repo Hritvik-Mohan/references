@@ -21,7 +21,7 @@ export default function Counter() {
         <div className="counter-container">
             <div className="counter">
                 <p>Count: {count}</p>
-                <div>
+                <div className="counter-buttons">
                     <button className="counter-button" onClick={increment}>Increment</button>
                     <button className="counter-button" onClick={decrement}>Decrement</button>
                     <button className="counter-button" onClick={reset}>Reset</button>
