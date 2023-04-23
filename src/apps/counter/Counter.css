@@ -10,7 +10,9 @@
 
 .counter-buttons {
     display: flex;
+    gap: 2rem;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 
