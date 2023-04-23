@@ -1,5 +1,6 @@
 .counter > p {
     font-size: 2rem;
+    margin: 0 auto;
 }
 
 .counter > div {
@@ -7,7 +8,8 @@
     gap: 2rem;
 }
 
-button {
+.counter-button {
     padding: 1rem 2rem;
     font-size: 1rem;
+    /* margin: 0 auto; */
 }

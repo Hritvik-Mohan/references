@@ -21,7 +21,7 @@ export default function LikeButton() {
                     <h3>{like}</h3>
                 </div>
             </div>
-            <button onClick={handleRefresh}>Refresh</button>
+            <button className='like-button-refresh' onClick={handleRefresh}>Refresh</button>
         </div>
     )
 }

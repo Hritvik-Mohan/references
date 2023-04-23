@@ -22,3 +22,9 @@
     text-align: center;
     font-size: 3rem;
 }
+
+.like-button-refresh {
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+    width: 100%;
+}
