@@ -1,17 +1,15 @@
-.like-button {
-    margin: 0 auto;
+.like-button__text {
+}
+
+.image-container{
+    position: relative;
+    display: flex;
 }
 
 .image-like-button {
     border-radius: 4px;
-    /* display: flex; */
-    /* margin: 0 auto; */
     width: 100%;
-}
-
-.image-container {
-    position: relative;
-    /* width: 100%; */
+    margin: 0 auto;
 }
 
 .text-container {

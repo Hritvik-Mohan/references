@@ -11,7 +11,7 @@
 }
 
 .container {
-  display: flex;
+  /* display: flex; */
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 .5rem;
@@ -19,15 +19,11 @@
 }
 
 .main {
-  display: grid;
+  /* display: grid; */
+  margin: 0 auto;
 }
 
 .app-section {
-  margin: 2rem 0;
-}
-
-.centered-section {
-  display: flex;
   width: 100%;
-  margin: 0 auto;
+  margin: 2rem 0;
 }

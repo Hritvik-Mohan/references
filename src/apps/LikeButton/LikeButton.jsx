@@ -14,7 +14,7 @@ export default function LikeButton() {
 
     return (
         <div className='like-button'>
-            <p>Double Click to Like this picture</p>
+            <p className='like-button__text'>Double tap to Like this picture</p>
             <div className='image-container'>
                 <img onDoubleClick={handleDoubleClick} className="image-like-button" src={"https://picsum.photos/200/300"} alt="" />
                 <div className="text-container">
