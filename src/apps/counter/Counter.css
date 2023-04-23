@@ -2,22 +2,30 @@
 }
 
 .counter > p {
+    display: flex;
     font-size: 2rem;
-    margin: 0 auto;
-}
-
-.counter > div {
-    display: flex;   
-    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .counter-buttons {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
 
 .counter-button {
     padding: 1rem 2rem;
     font-size: 1rem;
     /* margin: 0 auto; */
+    border-radius: 2rem;
+    border: none;
+}
+
+.counter-button:hover {
+    background-color: rgb(244, 244, 244);
+}
+
+.counter-button:active {
+    background-color: rgb(226, 226, 226);
 }
