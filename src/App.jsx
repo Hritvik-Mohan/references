@@ -9,7 +9,7 @@ function App() {
       <div className="main">
         <h1>References</h1>
             <section className='app-section'><Counter/></section>
-            <section className='app-section'><LikeButton/></section>
+            <section className='app-section centered-section'><LikeButton/></section>
         </div>
       </div>
     </>

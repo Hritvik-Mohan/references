@@ -12,9 +12,10 @@
 
 .container {
   display: flex;
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 .5rem;
+  width: 100%;
 }
 
 .main {
@@ -23,4 +24,10 @@
 
 .app-section {
   margin: 2rem 0;
+}
+
+.centered-section {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
 }
