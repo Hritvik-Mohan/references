@@ -1,0 +1,8 @@
+.counter > div {
+    display: flex;   
+    gap: 2rem;
+}
+
+button {
+    padding: 1rem 2rem;
+}
