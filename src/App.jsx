@@ -12,7 +12,10 @@ function App() {
       <div className="main">
         <h1>References</h1>
             <section className='app-section'><Counter/></section>
-            <section className='app-section'><Stopwatch/></section>
+            <section className='app-section'><Stopwatch timeIn={1000}/></section>
+            <section className='app-section'><Stopwatch timeIn={100}/></section>
+            <section className='app-section'><Stopwatch timeIn={1}/></section>
+            <section className='app-section'><Stopwatch timeIn={0.1}/></section>
             <section className='app-section'><LikeButton/></section>
             <section className='app-section'><RandomQuotesGen/></section>
             <section className='app-section'><FetchQuotes/></section>
