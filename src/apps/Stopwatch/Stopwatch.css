@@ -1,0 +1,15 @@
+.stopwatch-container {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.stopwatch-container > h1 {
+    margin: 2rem;
+}
+
+.stopwatch-buttons {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
